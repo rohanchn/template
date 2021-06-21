@@ -44,7 +44,7 @@ for filename in sorted(glob.glob('*.png')):
         if resized.shape[0]  < tH or resized.shape[1]  < tW:
             break
         canny = cv2.Canny(resized,  50,  200)
-        mask = canny[100:300, 0:2067]
+        mask = canny[100:300, 0:2067] # this was applied on set_2
         detected = cv2.matchTemplate(canny, template, cv2.TM_CCOEFF, mask)
         (_, max_val, _, max_loc)  = cv2.minMaxLoc(detected)
 
