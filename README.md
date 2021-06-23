@@ -17,4 +17,7 @@ set_2 is another example of the same process from a different book.
 
 all images have bengali text. 
 
-template.py is how I applied the template. I defined the mask at line 47. it has coordinates of the top region of the page where I wanted to detect the template. 
+template.py is how I applied the template. I defined the mask at line 47. it has coordinates of the top region of the page where I wanted to detect the template.
+
+the match was wrongly detected (bottom of the page instead of the top, despite the mask) on around 2% pages. 
+was the images passed upside down? 
