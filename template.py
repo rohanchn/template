@@ -3,8 +3,8 @@ import cv2
 import glob
 import numpy as np
 from numpy.lib.shape_base import get_array_prepare
-p
-ath = "clean"
+
+path = "clean"
 if not os.path.exists(path):
     os.makedirs(path)
 
