@@ -2,7 +2,7 @@
 
 attempt at removing horizontal line at the top of the page using template matching. this border was confusing the line segmentation in kraken, and I thought removing it might improve accuracy. 
 The code was adapted from different tutorials online, especially pyimagesearch. 
-template matching is applied with a mask containing coordinates of the region (top of the page) where I wanted to match the template.
+template matching is applied with a mask containing coordinates of the region (top of the page) where I wanted to detect the template.
 
 set_1 directory contains three sub-directory. 
 1. removed_bottom has the odd case where the template was wrongly applied at the bottom despite the mask. 
