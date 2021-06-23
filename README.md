@@ -4,7 +4,7 @@ attempt at removing horizontal line at the top of the page using template matchi
 The code was adapted from different tutorials online, especially pyimagesearch. 
 template matching is applied with a mask containing coordinates of the region (top of the page) where I wanted to detect the template.
 
-set_1 directory contains three sub-directory. 
+set_1 contains three sub-directories. 
 1. removed_bottom has the odd case where the template was wrongly applied at the bottom despite the mask. 
 2. template_removed has cases where the template was correctly applied (at the top)
 3. final_process has sample pre-processed images that I pass to kraken, the ocr engine I've been training for early print in hi, bn, ur.
